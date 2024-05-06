@@ -5,6 +5,8 @@ namespace Projeto3DS.Models
 {
    public class Categoria
         {
+        //Alterar os data annotations
+
         //referencia ao categoria id
         [Key]
         public int categoria_id { get; set; }

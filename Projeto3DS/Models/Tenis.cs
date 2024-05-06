@@ -7,6 +7,8 @@ namespace Projeto3DS.Models
     [Table("Tenis")]
     public class Tenis{
 
+        //Alterar os data annotations
+
         //referencia ao tenis id
         [Key]
         public int tenis_id { get; set; }
