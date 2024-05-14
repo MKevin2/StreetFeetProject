@@ -10,13 +10,13 @@ namespace Projeto3DS.Migrations
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql("insert into Categoria(categoria_nome, desc) values ('Nike', 'Tênis com as tecnologias Nike')");
+            migrationBuilder.Sql("insert into Categoria(categoria_nome, Descricao) values('Nike', 'Tênis desenvolvido com tecnologia Nike')");
         }
 
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
-            migrationBuilder.Sql("delete from Categoria");
+            migrationBuilder.Sql("delete from categoria");
         }
     }
 }

@@ -6,7 +6,7 @@ using MySql.EntityFrameworkCore.Metadata;
 namespace Projeto3DS.Migrations
 {
     /// <inheritdoc />
-    public partial class dbStreet : Migration
+    public partial class Banco : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -21,7 +21,7 @@ namespace Projeto3DS.Migrations
                     categoria_id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("MySQL:ValueGenerationStrategy", MySQLValueGenerationStrategy.IdentityColumn),
                     categoria_nome = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false),
-                    desc = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
+                    Descricao = table.Column<string>(type: "varchar(100)", maxLength: 100, nullable: false)
                 },
                 constraints: table =>
                 {

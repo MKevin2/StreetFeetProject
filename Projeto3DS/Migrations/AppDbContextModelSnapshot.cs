@@ -25,12 +25,12 @@ namespace Projeto3DS.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("int");
 
-                    b.Property<string>("categoria_nome")
+                    b.Property<string>("Descricao")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");
 
-                    b.Property<string>("desc")
+                    b.Property<string>("categoria_nome")
                         .IsRequired()
                         .HasMaxLength(100)
                         .HasColumnType("varchar(100)");

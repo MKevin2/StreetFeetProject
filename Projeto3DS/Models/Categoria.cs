@@ -21,7 +21,7 @@ namespace Projeto3DS.Models
         [StringLength(100, MinimumLength = 10)]
         [Required(ErrorMessage = "Tamanho inválido")]
         [Display(Name = "Descrição")]
-        public string desc { get; set; }
+        public string Descricao { get; set; }
         public List<Tenis> Tenis { get; set; }
         }
 }
